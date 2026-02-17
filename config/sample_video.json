@@ -1,0 +1,17 @@
+{
+  "video": "data/your_video.mp4",
+  "color_channel": "V",
+  "grids": {
+    "rows": 6,
+    "cols": 6
+  },
+  "rois": {
+    "roi1": { "x": 545, "y": 159, "w": 284, "h": 140 },
+    "roi2": { "x": 238, "y": 161, "w": 284, "h": 140 }
+  },
+  "output": {
+    "video_dir": "output/videos",
+    "log_dir": "output/logs"
+  },
+  "batch_size": 64
+}

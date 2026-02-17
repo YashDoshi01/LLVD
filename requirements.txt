@@ -1,0 +1,13 @@
+# Core
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Performance
+psutil>=5.9.0
+tqdm>=4.65.0
+
+# Clustering (used by base_pipeline)
+scikit-learn>=1.3.0
+
+# Optional: If you have opencv-contrib for guided filter dehazing
+# opencv-contrib-python>=4.8.0

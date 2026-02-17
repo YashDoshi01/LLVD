@@ -1,0 +1,39 @@
+# Output files
+output/
+*.mp4
+*.avi
+
+# Temporary config copy
+user_input_data.json
+
+# Profile logs
+comparison_report/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (large files — store separately)
+data/*.mp4
+data/*.avi
